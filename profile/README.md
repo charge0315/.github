@@ -1,8 +1,8 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm charge0315 👋
 
 <div align="center">
   
-  ![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=flat-square)
+  ![Profile Views](https://komarev.com/ghpvc/?username=charge0315&color=blueviolet&style=flat-square)
   
   **Welcome to my GitHub profile!**
   
@@ -14,7 +14,7 @@
 - 🌱 I'm currently learning **[Technology/Skill]**
 - 👯 I'm looking to collaborate on **[Type of Projects]**
 - 💬 Ask me about **[Your Expertise Areas]**
-- 📫 How to reach me: **[your.email@example.com]**
+- 📫 How to reach me: **charge0315@gmail.com**
 - ⚡ Fun fact: **[Something interesting about you]**
 
 ## 🛠️ Technologies & Tools
@@ -60,11 +60,11 @@
 
 <div align="center">
   
-  ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+  ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=charge0315&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
   
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true)
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charge0315&layout=compact&theme=tokyonight&hide_border=true)
   
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true)
+  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=charge0315&theme=tokyonight&hide_border=true)
 
 </div>
 
@@ -72,7 +72,7 @@
 
 <div align="center">
   
-  ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=yourusername&theme=tokyonight&no-frame=true&row=1&column=7)
+  ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=charge0315&theme=tokyonight&no-frame=true&row=1&column=7)
   
 </div>
 
@@ -80,7 +80,7 @@
 
 <div align="center">
   
-  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyo-night&hide_border=true)
+  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=charge0315&theme=tokyo-night&hide_border=true)
   
 </div>
 
@@ -88,8 +88,8 @@
 
 <div align="center">
 
-[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project1&theme=tokyonight&hide_border=true)](https://github.com/yourusername/project1)
-[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project2&theme=tokyonight&hide_border=true)](https://github.com/yourusername/project2)
+[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=charge0315&repo=project1&theme=tokyonight&hide_border=true)](https://github.com/charge0315/project1)
+[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=charge0315&repo=project2&theme=tokyonight&hide_border=true)](https://github.com/charge0315/project2)
 
 </div>
 
@@ -113,7 +113,7 @@
 
 <div align="center">
   
-  **⭐️ From [yourusername](https://github.com/yourusername)**
+  **⭐️ From [charge0315](https://github.com/charge0315)**
   
   *"The only way to do great work is to love what you do." - Steve Jobs*
   

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/charge0315/.github/blob/main/README.md
+    about: Please check the documentation first
+  - name: Discussions
+    url: https://github.com/charge0315/.github/discussions
+    about: Ask questions and discuss ideas with the community

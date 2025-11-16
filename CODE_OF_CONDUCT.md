@@ -1,74 +1,68 @@
-# Contributor Covenant Code of Conduct
+# コントリビューター規約 行動規範
 
-## Our Pledge
+## 私たちの誓い
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+私たちメンバー、コントリビューター、リーダーは、年齢、体の大きさ、目に見えるまたは
+目に見えない障害、民族性、性的特徴、性同一性と表現、経験レベル、教育、社会経済的地位、
+国籍、外見、人種、宗教、または性的同一性と志向に関係なく、すべての人にとって
+ハラスメントのない体験となるようコミュニティへの参加を約束します。
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+私たちは、オープンで、歓迎的で、多様性があり、包括的で、健全なコミュニティに
+貢献する方法で行動し、交流することを誓います。
 
-## Our Standards
+## 私たちの基準
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+私たちのコミュニティにとって前向きな環境に貢献する行動の例：
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
-  overall community
+* 他者への共感と優しさを示すこと
+* 異なる意見、視点、経験を尊重すること
+* 建設的なフィードバックを与え、優雅に受け入れること
+* 私たちの過ちによって影響を受けた人々に責任を受け入れ、謝罪し、
+  その経験から学ぶこと
+* 個人としてだけでなく、コミュニティ全体にとって最善なことに
+  焦点を当てること
 
-Examples of unacceptable behavior include:
+許容されない行動の例：
 
-* The use of sexualized language or imagery, and sexual attention or
-  advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
-  address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+* 性的な言葉や画像の使用、およびあらゆる種類の性的注目や
+  アプローチ
+* 荒らし行為、侮辱的または軽蔑的なコメント、個人的または政治的攻撃
+* 公的または私的なハラスメント
+* 明示的な許可なく、他者の物理的または電子メールアドレスなどの
+  個人情報を公開すること
+* 職業的な環境において不適切と合理的に考えられるその他の行為
 
-## Enforcement Responsibilities
+## 執行責任
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+コミュニティリーダーは、私たちの許容される行動の基準を明確にし、執行する責任があり、
+不適切、脅迫的、攻撃的、または有害と見なされる行動に対して、適切かつ公正な
+是正措置を講じます。
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+コミュニティリーダーは、この行動規範に沿っていないコメント、コミット、コード、
+Wikiの編集、Issue、その他の貢献を削除、編集、または拒否する権利と責任を有し、
+適切な場合にはモデレーション決定の理由を伝えます。
 
-## Scope
+## 適用範囲
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+この行動規範は、すべてのコミュニティスペース内で適用され、また個人が
+公的スペースでコミュニティを公式に代表している場合にも適用されます。
+私たちのコミュニティを代表する例には、公式メールアドレスの使用、
+公式ソーシャルメディアアカウントを介した投稿、またはオンラインまたは
+オフラインのイベントで任命された代表として行動することが含まれます。
 
-## Enforcement
+## 執行
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement.
-All complaints will be reviewed and investigated promptly and fairly.
+虐待的、ハラスメント、またはその他の許容できない行動の事例は、
+執行を担当するコミュニティリーダーに報告される可能性があります。
+すべての苦情は迅速かつ公正にレビューおよび調査されます。
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+すべてのコミュニティリーダーは、あらゆる事件の報告者のプライバシーと
+セキュリティを尊重する義務があります。
 
-## Attribution
+## 帰属
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.0, available at
-https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+この行動規範は、[Contributor Covenant][homepage]のバージョン2.0から
+適応されており、https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+で入手できます。
 
 [homepage]: https://www.contributor-covenant.org

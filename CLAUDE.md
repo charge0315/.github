@@ -1,411 +1,412 @@
-# CLAUDE.md - AI Assistant Guide
+# CLAUDE.md - AIアシスタントガイド
 
-This document provides comprehensive guidance for AI assistants working with this repository. It explains the codebase structure, development workflows, and key conventions to follow.
+このドキュメントは、このリポジトリで作業するAIアシスタント向けの包括的なガイダンスを提供します。コードベース構造、開発ワークフロー、および従うべき主要な規約について説明します。
 
-## Repository Overview
+## リポジトリ概要
 
-This is a **special GitHub repository** named `.github` that serves as a centralized location for community health files and GitHub profile configuration for the user **charge0315**.
+これは、ユーザー **charge0315** のコミュニティヘルスファイルとGitHubプロファイル設定の一元的な場所として機能する、`.github` という名前の **特別なGitHubリポジトリ** です。
 
-### Purpose
+### 目的
 
-GitHub recognizes `.github` repositories as special repositories that provide:
-- **Community health files** (CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, etc.) that automatically apply to all public repositories owned by the user
-- **GitHub profile README** (profile/README.md) displayed on the user's GitHub profile page
-- **Issue and PR templates** that can be shared across repositories
+GitHubは `.github` リポジトリを特別なリポジトリとして認識し、以下を提供します：
+- **コミュニティヘルスファイル** (CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md など) - ユーザーが所有するすべてのパブリックリポジトリに自動的に適用されます
+- **GitHubプロファイルREADME** (profile/README.md) - ユーザーのGitHubプロファイルページに表示されます
+- **IssueとPRテンプレート** - リポジトリ間で共有できます
 
-## Repository Structure
+## リポジトリ構造
 
 ```
 .github/
 ├── .github/
 │   └── ISSUE_TEMPLATE/
-│       ├── bug_report.yml          # Bug report issue template
-│       ├── feature_request.yml     # Feature request issue template
-│       └── config.yml              # Issue template configuration
+│       ├── bug_report.yml          # バグレポートIssueテンプレート
+│       ├── feature_request.yml     # 機能リクエストIssueテンプレート
+│       └── config.yml              # Issueテンプレート設定
 ├── profile/
-│   └── README.md                   # GitHub profile README
-├── CODE_OF_CONDUCT.md              # Community code of conduct
-├── CONTRIBUTING.md                 # Contribution guidelines
-├── FUNDING.yml                     # Sponsorship/funding configuration
-├── README.md                       # Repository description
-├── SECURITY.md                     # Security policy
-└── SUPPORT.md                      # Support documentation
+│   └── README.md                   # GitHubプロファイルREADME
+├── CODE_OF_CONDUCT.md              # コミュニティ行動規範
+├── CONTRIBUTING.md                 # コントリビューションガイドライン
+├── FUNDING.yml                     # スポンサーシップ/資金提供設定
+├── README.md                       # リポジトリ説明
+├── SECURITY.md                     # セキュリティポリシー
+└── SUPPORT.md                      # サポートドキュメント
 ```
 
-## File Descriptions
+## ファイルの説明
 
-### Community Health Files
+### コミュニティヘルスファイル
 
 #### CODE_OF_CONDUCT.md
-- **Purpose**: Defines community standards and behavior expectations
-- **Standard**: Contributor Covenant v2.0
-- **Applies to**: All public repositories owned by charge0315
-- **Key sections**:
-  - Our Pledge (harassment-free experience)
-  - Our Standards (acceptable/unacceptable behavior)
-  - Enforcement Responsibilities
-  - Scope and attribution
+- **目的**: コミュニティの基準と行動への期待を定義
+- **標準**: Contributor Covenant v2.0
+- **適用範囲**: charge0315が所有するすべてのパブリックリポジトリ
+- **主要セクション**:
+  - 私たちの誓い（ハラスメントのない体験）
+  - 私たちの基準（許容される/許容されない行動）
+  - 執行責任
+  - 適用範囲と帰属
 
 #### CONTRIBUTING.md
-- **Purpose**: Guidelines for contributing to projects
-- **Contains**:
-  - How to report issues
-  - Submitting changes workflow (fork → branch → commit → PR)
-  - Code style expectations
-  - Testing requirements
-  - Reference to Code of Conduct
+- **目的**: プロジェクトへのコントリビューションガイドライン
+- **内容**:
+  - Issueの報告方法
+  - 変更の送信ワークフロー（fork → branch → commit → PR）
+  - コードスタイルの期待事項
+  - テスト要件
+  - 行動規範への参照
 
 #### SECURITY.md
-- **Purpose**: Security vulnerability reporting and handling
-- **Key points**:
-  - Do NOT report vulnerabilities via public GitHub issues
-  - Email maintainers directly with vulnerability details
-  - 48-hour response time commitment
-  - Responsible disclosure expectations
+- **目的**: セキュリティ脆弱性の報告と対処
+- **重要ポイント**:
+  - パブリックなGitHub Issueで脆弱性を報告しないこと
+  - 脆弱性の詳細をメンテナーに直接メール
+  - 48時間以内の応答時間のコミットメント
+  - 責任ある開示の期待
 
 #### SUPPORT.md
-- **Purpose**: Help users get support
-- **Contains**:
-  - Documentation references
-  - Issue creation guidelines
-  - Discussion forum references
-  - Best practices for asking questions
+- **目的**: ユーザーがサポートを受ける方法
+- **内容**:
+  - ドキュメント参照
+  - Issue作成ガイドライン
+  - ディスカッションフォーラム参照
+  - 質問のベストプラクティス
 
 #### FUNDING.yml
-- **Purpose**: Configure repository sponsorship options
-- **Current state**: All funding platforms commented out
-- **Available platforms**: GitHub Sponsors, Patreon, Open Collective, Ko-fi, etc.
+- **目的**: リポジトリスポンサーシップオプションの設定
+- **現在の状態**: すべての資金提供プラットフォームがコメントアウトされています
+- **利用可能なプラットフォーム**: GitHub Sponsors, Patreon, Open Collective, Ko-fi など
 
-### Issue Templates
+### Issueテンプレート
 
 #### .github/ISSUE_TEMPLATE/bug_report.yml
-- **Type**: Structured YAML issue form
-- **Label**: Automatically adds "bug" label
-- **Fields**:
-  - Bug Description (required)
-  - Steps to Reproduce (required)
-  - Expected Behavior (required)
-  - Actual Behavior (required)
-  - Environment (optional)
-  - Screenshots (optional)
-  - Additional Context (optional)
+- **タイプ**: 構造化されたYAML Issueフォーム
+- **ラベル**: 自動的に "bug" ラベルを追加
+- **フィールド**:
+  - バグの説明（必須）
+  - 再現手順（必須）
+  - 期待される動作（必須）
+  - 実際の動作（必須）
+  - 環境（任意）
+  - スクリーンショット（任意）
+  - 追加のコンテキスト（任意）
 
 #### .github/ISSUE_TEMPLATE/feature_request.yml
-- **Type**: Structured YAML issue form
-- **Label**: Automatically adds "enhancement" label
-- **Fields**:
-  - Problem Statement (required)
-  - Proposed Solution (required)
-  - Alternatives Considered (optional)
-  - Additional Context (optional)
-  - Priority dropdown (Low/Medium/High/Critical)
-  - Contribution willingness checkbox
+- **タイプ**: 構造化されたYAML Issueフォーム
+- **ラベル**: 自動的に "enhancement" ラベルを追加
+- **フィールド**:
+  - 問題の説明（必須）
+  - 提案する解決策（必須）
+  - 検討した代替案（任意）
+  - 追加のコンテキスト（任意）
+  - 優先度ドロップダウン（低/中/高/重大）
+  - コントリビューション意思のチェックボックス
 
 #### .github/ISSUE_TEMPLATE/config.yml
-- **Purpose**: Issue template configuration
-- **Settings**:
-  - `blank_issues_enabled: false` - Disables blank issues
-  - Contact links for Documentation and Discussions
+- **目的**: Issueテンプレート設定
+- **設定**:
+  - `blank_issues_enabled: false` - 空白のIssueを無効化
+  - ドキュメントとディスカッション用の連絡先リンク
 
-### Profile Files
+### プロファイルファイル
 
 #### profile/README.md
-- **Purpose**: User's GitHub profile page
-- **Content sections**:
-  - Personal introduction
-  - Technologies & tools (badges for Python, JavaScript, React, Docker, etc.)
-  - GitHub statistics and graphs
-  - Featured projects
-  - Blog posts (placeholder)
-  - Social media links
-- **Styling**: Uses shields.io badges, GitHub stats widgets, centered layout
+- **目的**: ユーザーのGitHubプロファイルページ
+- **コンテンツセクション**:
+  - 自己紹介
+  - 技術とツール（Python、JavaScript、React、Dockerなどのバッジ）
+  - GitHub統計とグラフ
+  - 注目プロジェクト
+  - ブログ投稿（プレースホルダー）
+  - ソーシャルメディアリンク
+- **スタイル**: shields.ioバッジ、GitHub統計ウィジェット、中央寄せレイアウトを使用
 
 #### README.md
-- **Current content**: ".github 新規作成" (New creation in Japanese)
-- **Purpose**: Brief repository description
-- **Note**: Could be expanded to explain the repository's purpose
+- **現在の内容**: ".github 新規作成"
+- **目的**: 簡単なリポジトリ説明
+- **注意**: リポジトリの目的を説明するために拡張可能
 
-## Development Workflows
+## 開発ワークフロー
 
-### Making Changes to Community Health Files
+### コミュニティヘルスファイルの変更
 
-When modifying community health files:
+コミュニティヘルスファイルを変更する際：
 
-1. **Understand the impact**: Changes affect ALL public repositories
-2. **Review carefully**: These files set community standards
-3. **Follow conventions**:
-   - Use clear, professional language
-   - Maintain existing structure and formatting
-   - Keep content concise and actionable
-4. **Test templates**: For issue templates, verify YAML syntax is valid
+1. **影響を理解する**: 変更はすべてのパブリックリポジトリに影響します
+2. **慎重にレビュー**: これらのファイルはコミュニティの基準を設定します
+3. **規約に従う**:
+   - 明確で専門的な言葉を使用
+   - 既存の構造とフォーマットを維持
+   - 内容は簡潔で実行可能に保つ
+4. **テンプレートをテスト**: Issueテンプレートの場合、YAML構文が有効であることを確認
 
-### Updating Issue Templates
+### Issueテンプレートの更新
 
-1. **YAML syntax**: Strictly validate before committing
-2. **Required fields**: Balance between gathering info and user friction
-3. **Labels**: Ensure labels exist in repositories or will be auto-created
-4. **Testing**: Create test issues to verify template functionality
+1. **YAML構文**: コミット前に厳密に検証
+2. **必須フィールド**: 情報収集とユーザーの負担のバランスを取る
+3. **ラベル**: リポジトリにラベルが存在することを確認、または自動作成されます
+4. **テスト**: テストIssueを作成してテンプレートの機能を確認
 
-### Modifying the Profile README
+### プロファイルREADMEの変更
 
-1. **Visual consistency**: Maintain the Tokyo Night theme and centered layout
-2. **Badges and widgets**: Ensure all external services (shields.io, vercel.app) URLs are correct
-3. **Personal information**: Update placeholders with actual information
-4. **Links**: Verify all URLs are functional
+1. **視覚的一貫性**: Tokyo Nightテーマと中央寄せレイアウトを維持
+2. **バッジとウィジェット**: すべての外部サービス（shields.io、vercel.appなど）のURLが正しいことを確認
+3. **個人情報**: プレースホルダーを実際の情報で更新
+4. **リンク**: すべてのURLが機能することを確認
 
-### Git Workflow
+### Gitワークフロー
 
-Standard git workflow for this repository:
+このリポジトリの標準Gitワークフロー：
 
 ```bash
-# Create feature branch
-git checkout -b feature/description
+# 機能ブランチを作成
+git checkout -b feature/説明
 
-# Make changes
-# ... edit files ...
+# 変更を加える
+# ... ファイルを編集 ...
 
-# Commit with clear messages
+# 明確なメッセージでコミット
 git add .
-git commit -m "type: clear description of changes"
+git commit -m "type: 変更の明確な説明"
 
-# Push to origin
-git push -u origin feature/description
+# originにプッシュ
+git push -u origin feature/説明
 
-# Create pull request (if applicable)
+# プルリクエストを作成（該当する場合）
 ```
 
-## Key Conventions for AI Assistants
+## AIアシスタント向けの主要規約
 
-### File Modification Guidelines
+### ファイル変更ガイドライン
 
-1. **Community Health Files**
-   - **DO**: Maintain professional, inclusive language
-   - **DO**: Follow Contributor Covenant standards for CODE_OF_CONDUCT.md
-   - **DO**: Keep security reporting instructions clear and private
-   - **DON'T**: Make breaking changes without user approval
-   - **DON'T**: Remove important sections without discussion
+1. **コミュニティヘルスファイル**
+   - **すべきこと**: 専門的で包括的な言葉を維持
+   - **すべきこと**: CODE_OF_CONDUCT.mdについてはContributor Covenant標準に従う
+   - **すべきこと**: セキュリティ報告の指示を明確かつ非公開に保つ
+   - **してはいけないこと**: ユーザーの承認なしに破壊的な変更を加える
+   - **してはいけないこと**: 議論なしに重要なセクションを削除する
 
-2. **Issue Templates**
-   - **DO**: Validate YAML syntax before committing
-   - **DO**: Include helpful placeholder text
-   - **DO**: Balance required vs optional fields
-   - **DON'T**: Create overly complex forms that discourage reporting
-   - **DON'T**: Forget to update labels if changing label assignments
+2. **Issueテンプレート**
+   - **すべきこと**: コミット前にYAML構文を検証
+   - **すべきこと**: 役立つプレースホルダーテキストを含める
+   - **すべきこと**: 必須フィールドと任意フィールドのバランスを取る
+   - **してはいけないこと**: 報告を妨げる複雑すぎるフォームを作成する
+   - **してはいけないこと**: ラベル割り当てを変更する場合、ラベルの更新を忘れない
 
-3. **Profile README**
-   - **DO**: Maintain visual consistency (theme, alignment, badges)
-   - **DO**: Update statistics widgets with correct username
-   - **DO**: Ensure all external links are functional
-   - **DON'T**: Use placeholders in production (replace with actual info)
-   - **DON'T**: Break the centered layout or visual theme
+3. **プロファイルREADME**
+   - **すべきこと**: 視覚的一貫性を維持（テーマ、配置、バッジ）
+   - **すべきこと**: 正しいユーザー名で統計ウィジェットを更新
+   - **すべきこと**: すべての外部リンクが機能することを確認
+   - **してはいけないこと**: 本番環境でプレースホルダーを使用（実際の情報で置換）
+   - **してはいけないこと**: 中央寄せレイアウトや視覚的テーマを壊さない
 
-### Code Quality Standards
+### コード品質基準
 
 1. **Markdown**:
-   - Use consistent heading levels
-   - Include blank lines between sections
-   - Use proper link formatting: `[text](url)`
-   - Validate markdown syntax
+   - 一貫した見出しレベルを使用
+   - セクション間に空白行を含める
+   - 適切なリンクフォーマットを使用: `[テキスト](url)`
+   - Markdown構文を検証
 
 2. **YAML**:
-   - Indent with 2 spaces
-   - Validate syntax before committing
-   - Quote strings containing special characters
-   - Follow GitHub's issue form schema
+   - 2スペースでインデント
+   - コミット前に構文を検証
+   - 特殊文字を含む文字列を引用符で囲む
+   - GitHubのIssueフォームスキーマに従う
 
-3. **File Organization**:
-   - Keep files in their designated directories
-   - Use clear, descriptive filenames
-   - Maintain alphabetical ordering where applicable
+3. **ファイル構成**:
+   - ファイルを指定されたディレクトリに保持
+   - 明確で説明的なファイル名を使用
+   - 該当する場合はアルファベット順を維持
 
-### Security Considerations
+### セキュリティ上の考慮事項
 
-1. **Never commit**:
-   - Personal email addresses (unless intentionally public)
-   - API keys or tokens
-   - Private repository information
-   - Sensitive user data
+1. **決してコミットしないもの**:
+   - 個人のメールアドレス（意図的に公開する場合を除く）
+   - APIキーまたはトークン
+   - プライベートリポジトリ情報
+   - 機密ユーザーデータ
 
-2. **Security reporting**:
-   - Keep SECURITY.md instructions clear
-   - Emphasize private reporting channels
-   - Don't disclose vulnerabilities in commits
+2. **セキュリティ報告**:
+   - SECURITY.mdの指示を明確に保つ
+   - プライベートな報告チャネルを強調
+   - コミットで脆弱性を開示しない
 
-### Communication Style
+### コミュニケーションスタイル
 
-When working with this repository:
+このリポジトリで作業する際：
 
-1. **Commit messages**:
-   - Use conventional commit format: `type: description`
-   - Types: `feat`, `fix`, `docs`, `style`, `refactor`, `chore`
-   - Example: `docs: update contributing guidelines`
+1. **コミットメッセージ**:
+   - 従来のコミット形式を使用: `type: 説明`
+   - タイプ: `feat`, `fix`, `docs`, `style`, `refactor`, `chore`
+   - 例: `docs: コントリビューションガイドラインを更新`
 
-2. **Documentation**:
-   - Write in clear, simple English
-   - Use active voice
-   - Be concise but complete
-   - Include examples where helpful
+2. **ドキュメント**:
+   - 明確でシンプルな言葉で書く
+   - 能動態を使用
+   - 簡潔だが完全に
+   - 役立つ例を含める
 
-3. **Issue templates**:
-   - Use welcoming, encouraging language
-   - Provide clear instructions
-   - Include helpful placeholders
+3. **Issueテンプレート**:
+   - 歓迎的で励ましの言葉を使用
+   - 明確な指示を提供
+   - 役立つプレースホルダーを含める
 
-## Common Tasks
+## 一般的なタスク
 
-### Adding a New Issue Template
+### 新しいIssueテンプレートの追加
 
-1. Create new YAML file in `.github/ISSUE_TEMPLATE/`
-2. Follow this structure:
+1. `.github/ISSUE_TEMPLATE/` に新しいYAMLファイルを作成
+2. この構造に従う:
 ```yaml
-name: Template Name
-description: Template description
+name: テンプレート名
+description: テンプレートの説明
 title: "[PREFIX]: "
 labels: ["label1", "label2"]
 body:
   - type: markdown
     attributes:
       value: |
-        Introduction text
+        導入テキスト
   - type: textarea
     id: unique_id
     attributes:
-      label: Field Label
-      description: Field description
+      label: フィールドラベル
+      description: フィールドの説明
     validations:
       required: true
 ```
-3. Update `config.yml` if needed
-4. Test the template by creating an issue
+3. 必要に応じて `config.yml` を更新
+4. Issueを作成してテンプレートをテスト
 
-### Updating Profile Statistics
+### プロファイル統計の更新
 
-The profile README uses external widgets that automatically update. To change the theme or style:
+プロファイルREADMEは自動的に更新される外部ウィジェットを使用しています。テーマやスタイルを変更するには：
 
-1. Locate the widget URL (e.g., `github-readme-stats.vercel.app`)
-2. Modify query parameters:
-   - `theme=tokyonight` - Changes color scheme
-   - `hide_border=true` - Removes borders
-   - `count_private=true` - Includes private repos
-3. Verify the new URL renders correctly
+1. ウィジェットURL（例：`github-readme-stats.vercel.app`）を見つける
+2. クエリパラメータを変更:
+   - `theme=tokyonight` - 配色を変更
+   - `hide_border=true` - 境界線を削除
+   - `count_private=true` - プライベートリポジトリを含む
+3. 新しいURLが正しくレンダリングされることを確認
 
-### Enabling Funding
+### 資金提供の有効化
 
-To enable sponsorship options in FUNDING.yml:
+FUNDING.ymlでスポンサーシップオプションを有効にするには：
 
-1. Uncomment the relevant platform line
-2. Replace the placeholder with your username/URL
-3. Example: `github: charge0315`
-4. Commit and push changes
-5. "Sponsor" button will appear on repositories
+1. 関連するプラットフォーム行のコメントを解除
+2. プレースホルダーをユーザー名/URLで置換
+3. 例: `github: charge0315`
+4. 変更をコミットしてプッシュ
+5. リポジトリに「スポンサー」ボタンが表示されます
 
-## Best Practices
+## ベストプラクティス
 
-### For AI Assistants
+### AIアシスタント向け
 
-1. **Read before modifying**: Always read existing files completely before making changes
-2. **Preserve intent**: Maintain the original purpose and tone of files
-3. **Validate syntax**: Especially for YAML files, validate before committing
-4. **Explain changes**: Provide clear commit messages and explanations
-5. **Ask when uncertain**: If a change could have broad impact, ask the user first
-6. **Test templates**: For issue templates, verify they work as expected
-7. **Maintain consistency**: Keep formatting, style, and conventions consistent
-8. **Consider scope**: Remember changes to community files affect all repos
+1. **変更前に読む**: 変更を加える前に常に既存のファイルを完全に読む
+2. **意図を保持**: ファイルの元の目的とトーンを維持
+3. **構文を検証**: 特にYAMLファイルの場合、コミット前に検証
+4. **変更を説明**: 明確なコミットメッセージと説明を提供
+5. **不確かな場合は質問**: 変更が広範な影響を与える可能性がある場合、まずユーザーに尋ねる
+6. **テンプレートをテスト**: Issueテンプレートの場合、期待通りに機能することを確認
+7. **一貫性を維持**: フォーマット、スタイル、規約を一貫して保つ
+8. **範囲を考慮**: コミュニティファイルへの変更がすべてのリポジトリに影響することを忘れない
 
-### For Repository Maintenance
+### リポジトリメンテナンス向け
 
-1. **Regular updates**:
-   - Review and update contact information
-   - Ensure external links remain functional
-   - Update profile README with current projects
+1. **定期的な更新**:
+   - 連絡先情報をレビューして更新
+   - 外部リンクが機能し続けることを確認
+   - 現在のプロジェクトでプロファイルREADMEを更新
 
-2. **Template effectiveness**:
-   - Monitor if templates collect useful information
-   - Adjust required/optional fields based on usage
-   - Update templates as project needs evolve
+2. **テンプレートの有効性**:
+   - テンプレートが有用な情報を収集しているか監視
+   - 使用状況に基づいて必須/任意フィールドを調整
+   - プロジェクトのニーズが進化するにつれてテンプレートを更新
 
-3. **Documentation clarity**:
-   - Keep instructions clear and up-to-date
-   - Remove placeholder text before going public
-   - Ensure consistency across all community files
+3. **ドキュメントの明確性**:
+   - 指示を明確かつ最新に保つ
+   - 公開前にプレースホルダーテキストを削除
+   - すべてのコミュニティファイル間で一貫性を確保
 
-## Technical Details
+## 技術的詳細
 
-### GitHub Special Repositories
+### GitHub特別リポジトリ
 
-The `.github` repository is special because:
+`.github` リポジトリが特別な理由：
 
-1. **Automatic fallback**: If a public repository doesn't have its own community health files, GitHub automatically uses files from this repository
-2. **Profile README**: The `profile/README.md` file is displayed on the user's profile
-3. **Organization-wide**: For organization accounts, this can provide default files for all repos
+1. **自動フォールバック**: パブリックリポジトリが独自のコミュニティヘルスファイルを持っていない場合、GitHubは自動的にこのリポジトリのファイルを使用します
+2. **プロファイルREADME**: `profile/README.md` ファイルがユーザーのプロファイルに表示されます
+3. **組織全体**: 組織アカウントの場合、すべてのリポジトリにデフォルトファイルを提供できます
 
-### File Precedence
+### ファイルの優先順位
 
-When GitHub looks for community health files:
+GitHubがコミュニティヘルスファイルを探す際：
 
-1. First checks the repository itself (e.g., `repo/CODE_OF_CONDUCT.md`)
-2. Then checks `.github` repository (e.g., `.github/CODE_OF_CONDUCT.md`)
-3. For organizations, checks `.github/.github/` directory
+1. まずリポジトリ自体をチェック（例：`repo/CODE_OF_CONDUCT.md`）
+2. 次に `.github` リポジトリをチェック（例：`.github/CODE_OF_CONDUCT.md`）
+3. 組織の場合、`.github/.github/` ディレクトリをチェック
 
-### Supported Community Health Files
+### サポートされているコミュニティヘルスファイル
 
-Files that automatically apply across repositories:
+リポジトリ間で自動的に適用されるファイル：
 - CODE_OF_CONDUCT.md
 - CONTRIBUTING.md
 - FUNDING.yml
 - GOVERNANCE.md
 - SECURITY.md
 - SUPPORT.md
-- Issue and PR templates
+- IssueとPRテンプレート
 
-## Troubleshooting
+## トラブルシューティング
 
-### Issue Templates Not Appearing
+### Issueテンプレートが表示されない
 
-1. Check YAML syntax is valid
-2. Verify files are in `.github/ISSUE_TEMPLATE/` directory
-3. Ensure `config.yml` doesn't have conflicting settings
-4. Clear browser cache and reload
+1. YAML構文が有効であることを確認
+2. ファイルが `.github/ISSUE_TEMPLATE/` ディレクトリにあることを確認
+3. `config.yml` に競合する設定がないことを確認
+4. ブラウザキャッシュをクリアしてリロード
 
-### Profile README Not Updating
+### プロファイルREADMEが更新されない
 
-1. Ensure file is at `profile/README.md` (exact path)
-2. Verify repository is named exactly `.github`
-3. Check repository visibility is public
-4. Wait a few minutes for GitHub to refresh
+1. ファイルが `profile/README.md`（正確なパス）にあることを確認
+2. リポジトリ名が正確に `.github` であることを確認
+3. リポジトリの可視性がパブリックであることを確認
+4. GitHubが更新するまで数分待つ
 
-### Community Files Not Applying
+### コミュニティファイルが適用されない
 
-1. Verify repository is public (community files don't apply to private repos)
-2. Check file names match exactly (case-sensitive)
-3. Ensure repository is named `.github` (user) or `.github/.github/` (org)
+1. リポジトリがパブリックであることを確認（コミュニティファイルはプライベートリポジトリには適用されません）
+2. ファイル名が正確に一致することを確認（大文字小文字を区別）
+3. リポジトリ名が `.github`（ユーザー）または `.github/.github/`（組織）であることを確認
 
-## Resources
+## リソース
 
-### Official Documentation
+### 公式ドキュメント
 
-- [GitHub Community Health Files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
-- [GitHub Issue Template Syntax](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)
-- [GitHub Profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
+- [GitHubコミュニティヘルスファイル](https://docs.github.com/ja/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+- [GitHub Issueテンプレート構文](https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)
+- [GitHubプロファイルREADME](https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
 - [Contributor Covenant](https://www.contributor-covenant.org/)
 
-### Useful Tools
+### 便利なツール
 
-- [shields.io](https://shields.io/) - Badge generator
-- [GitHub Stats](https://github.com/anuraghazra/github-readme-stats) - Profile statistics widgets
-- [YAML Validator](https://www.yamllint.com/) - Validate YAML syntax
-- [Markdown Validator](https://www.markdownlint.com/) - Check markdown formatting
+- [shields.io](https://shields.io/) - バッジジェネレーター
+- [GitHub Stats](https://github.com/anuraghazra/github-readme-stats) - プロファイル統計ウィジェット
+- [YAML Validator](https://www.yamllint.com/) - YAML構文検証
+- [Markdown Validator](https://www.markdownlint.com/) - Markdownフォーマットチェック
 
-## Version History
+## バージョン履歴
 
-- **2025-11-16**: Initial CLAUDE.md created with comprehensive documentation
+- **2025-11-16**: 包括的なドキュメントを含むCLAUDE.mdの初期作成
+- **2025-11-16**: すべてのMDファイルを日本語化
 
-## Contact
+## 連絡先
 
-For questions about this repository structure or conventions:
-- Email: charge0315@gmail.com
+このリポジトリ構造や規約についての質問：
+- メール: charge0315@gmail.com
 - GitHub: [@charge0315](https://github.com/charge0315)
 
 ---
 
-**Note**: This document is intended for AI assistants to understand the repository structure and conventions. Keep it updated as the repository evolves.
+**注意**: このドキュメントは、AIアシスタントがリポジトリの構造と規約を理解するために意図されています。リポジトリが進化するにつれて更新してください。

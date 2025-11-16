@@ -1,42 +1,42 @@
-# Support
+# サポート
 
-Thank you for using this project! This document provides information on how to get help.
+このプロジェクトをご利用いただきありがとうございます！このドキュメントは、ヘルプを得る方法について情報を提供します。
 
-## Getting Help
+## ヘルプの入手
 
-### Documentation
+### ドキュメント
 
-Please check the project documentation first:
+まずプロジェクトのドキュメントを確認してください：
 
-* [README](README.md) - Overview and getting started guide
-* [Contributing Guidelines](CONTRIBUTING.md) - How to contribute to the project
+* [README](README.md) - 概要とスタートガイド
+* [コントリビューションガイドライン](CONTRIBUTING.md) - プロジェクトへの貢献方法
 
-### Issues
+### Issue
 
-If you have a question, bug report, or feature request:
+質問、バグレポート、または機能リクエストがある場合：
 
-1. Search the [existing issues](../../issues) to see if someone has already asked your question
-2. If you can't find an answer, create a new issue using the appropriate template
+1. [既存のIssue](../../issues)を検索して、既に誰かが同じ質問をしていないか確認してください
+2. 答えが見つからない場合は、適切なテンプレートを使用して新しいIssueを作成してください
 
-### Discussions
+### ディスカッション
 
-For general questions, ideas, or community discussions, please use the [Discussions](../../discussions) section if available.
+一般的な質問、アイデア、またはコミュニティディスカッションについては、利用可能な場合は[ディスカッション](../../discussions)セクションをご利用ください。
 
-## What to Include in Your Question
+## 質問に含めるべき内容
 
-When asking for help, please provide:
+ヘルプを求める際は、以下を提供してください：
 
-* A clear description of what you're trying to do
-* What you've already tried
-* Any error messages you're seeing
-* Your environment (operating system, version, etc.)
+* 何をしようとしているのか明確に説明
+* 既に試したこと
+* 表示されているエラーメッセージ
+* 環境（オペレーティングシステム、バージョンなど）
 
-## Response Time
+## 応答時間
 
-Please note that this project is maintained by volunteers. We'll do our best to respond as quickly as possible, but response times may vary.
+このプロジェクトはボランティアによって維持されていることにご注意ください。できるだけ早く応答するよう最善を尽くしますが、応答時間は異なる場合があります。
 
-## Additional Resources
+## 追加リソース
 
-* Check the project's wiki (if available)
-* Review the code examples in the repository
-* Look at the test files for usage examples
+* プロジェクトのWiki（利用可能な場合）を確認してください
+* リポジトリ内のコード例をレビューしてください
+* 使用例についてはテストファイルをご覧ください

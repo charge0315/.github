@@ -1,39 +1,39 @@
-# Contributing
+# コントリビューション
 
-Thank you for your interest in contributing to this project! We welcome contributions from everyone.
+このプロジェクトへの貢献に興味を持っていただきありがとうございます！すべての方からのコントリビューションを歓迎します。
 
-## How to Contribute
+## コントリビューション方法
 
-### Reporting Issues
+### Issueの報告
 
-If you find a bug or have a suggestion for improvement:
+バグを発見したり、改善の提案がある場合：
 
-1. Check if the issue already exists in the [issue tracker](../../issues)
-2. If not, create a new issue using the appropriate template
-3. Provide as much detail as possible to help us understand the problem
+1. [Issueトラッカー](../../issues)に既に同じIssueが存在するか確認してください
+2. 存在しない場合は、適切なテンプレートを使用して新しいIssueを作成してください
+3. 問題を理解するために、できるだけ詳細な情報を提供してください
 
-### Submitting Changes
+### 変更の送信
 
-1. Fork the repository
-2. Create a new branch for your changes (`git checkout -b feature/your-feature-name`)
-3. Make your changes
-4. Commit your changes with clear, descriptive commit messages
-5. Push your branch to your fork
-6. Submit a pull request
+1. リポジトリをフォークする
+2. 変更用の新しいブランチを作成する（`git checkout -b feature/機能名`）
+3. 変更を加える
+4. 明確で説明的なコミットメッセージでコミットする
+5. ブランチをフォークにプッシュする
+6. プルリクエストを送信する
 
-### Code Style
+### コードスタイル
 
-Please follow the existing code style and conventions used in the project.
+プロジェクトで使用されている既存のコードスタイルと規約に従ってください。
 
-### Testing
+### テスト
 
-Please ensure that your changes are properly tested before submitting a pull request.
+プルリクエストを送信する前に、変更が適切にテストされていることを確認してください。
 
-## Code of Conduct
+## 行動規範
 
-Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). 
-By participating in this project you agree to abide by its terms.
+このプロジェクトは[行動規範](CODE_OF_CONDUCT.md)とともにリリースされています。
+このプロジェクトに参加することで、その条件に従うことに同意したものとみなされます。
 
-## Questions?
+## 質問はありますか？
 
-If you have any questions, please feel free to open an issue or contact the maintainers.
+質問がある場合は、お気軽にIssueを開くか、メンテナーに連絡してください。

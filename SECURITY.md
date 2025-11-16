@@ -1,28 +1,28 @@
-# Security Policy
+# セキュリティポリシー
 
-## Reporting a Vulnerability
+## 脆弱性の報告
 
-If you discover a security vulnerability in this project, please report it by emailing the maintainers directly. Please do not report security vulnerabilities through public GitHub issues.
+このプロジェクトでセキュリティ脆弱性を発見した場合は、メンテナーに直接メールで報告してください。パブリックなGitHub Issueを通じてセキュリティ脆弱性を報告しないでください。
 
-Please include the following information in your report:
+報告には以下の情報を含めてください：
 
-* A description of the vulnerability
-* Steps to reproduce the issue
-* Potential impact of the vulnerability
-* Any suggestions for how to fix it (if you have any)
+* 脆弱性の説明
+* 問題を再現する手順
+* 脆弱性の潜在的な影響
+* 修正方法の提案（ある場合）
 
-## Response Time
+## 応答時間
 
-We will acknowledge receipt of your vulnerability report within 48 hours and will send you regular updates about our progress. If you have not received a reply to your email within 48 hours, please follow up to ensure we received your original message.
+脆弱性報告の受領を48時間以内に確認し、進捗状況について定期的に更新をお送りします。48時間以内にメールへの返信がない場合は、元のメッセージを受信したことを確認するためにフォローアップしてください。
 
-## Disclosure Policy
+## 開示ポリシー
 
-We ask that you:
+以下をお願いします：
 
-* Give us reasonable time to investigate and fix the issue before public disclosure
-* Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of our services
-* Do not access or modify other users' data
+* 公開前に、問題を調査し修正するための合理的な時間を与えてください
+* プライバシー侵害、データの破壊、サービスの中断または劣化を避けるために誠実な努力をしてください
+* 他のユーザーのデータにアクセスまたは変更しないでください
 
-## Security Updates
+## セキュリティアップデート
 
-Security updates will be released as soon as possible after a vulnerability is confirmed and a fix is available.
+セキュリティアップデートは、脆弱性が確認され、修正が利用可能になり次第、できるだけ早くリリースされます。
